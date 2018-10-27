@@ -1,0 +1,58 @@
+<html>
+
+	<head>
+
+	    <title>Curie | Contacts </title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900|Open+Sans:300,400,700,800" rel="stylesheet">
+
+		<link rel="stylesheet" href="contact.css">
+
+	</head>
+
+	<body>
+
+<!-- Code pour garder la bannière-->
+		<<div class="banner">
+			<img src="images/logo-curie.png" alt="Curie">
+			<h2>The Intelligent Paper Discovery Software</h2>
+		</div>
+
+<!-- Code pour garder le menu-->
+		<div class="topnav">
+				<a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+	  			<a href="https://ajuge.github.io/Curie"><i class="fa fa-fw fa-search"></i> About</a> 
+	  			<a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+	  			<a href="https://ameliejuge.typeform.com/to/ig9NF1"> Suggestion Box</a>
+		</div>
+
+<!-- Code pour la fiche de contact-->
+		<div class="container">
+		  <form action="action_page.php">
+
+		    <label for="fname">First Name</label>
+		    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+		    <label for="lname">Last Name</label>
+		    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+		    <label for="country">Country</label>
+		    <input type="text" id="country" name="country" placeholder="Your country..">
+
+		    <label for="subject">Subject</label>
+		    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+<!-- Pourquoi pas de lien avec une adresse email?-->
+		  <div>  
+		    <form method="Submit" action="mailto:juge.amelie@gmail.com">
+			<input type="submit" name="submit" value="submit" >
+			</form>
+		  </div>
+
+	</body>
+
+</html>
